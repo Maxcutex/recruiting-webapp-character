@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import CharacterCard from "./components/CharacterCard";
 import { ATTRIBUTE_LIST } from "./consts";
-import { saveCharacterData, fetchCharacterData } from "./api";
+import { saveCharacterData, fetchCharacterData } from "./api/api";
 import { Attributes, Character, CharacterPayload } from "./types";
 
 const App: React.FC = () => {
